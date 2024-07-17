@@ -34,6 +34,12 @@ const options = {
       text: "200 hours",
       align: "start",
       color: "rgb(255, 165, 0)",
+      font: {
+        size: 24,
+      },
+      padding: {
+        bottom: 40,
+      },
     },
   },
   scales: {
