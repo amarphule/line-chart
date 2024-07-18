@@ -160,7 +160,11 @@ const LineGraphs = () => {
           </select>
         </span>
       </div>
-      <Line data={graphData} options={options} />
+      {graphData.datasets.length > 0 && graphData.labels.length > 0 ? (
+        <Line data={graphData} options={options} />
+      ) : (
+        <h3>Data is not sufficient</h3>
+      )}
     </div>
   );
 };
