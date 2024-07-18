@@ -1,0 +1,25 @@
+{
+  "week": [
+    { "label": "Mon", "hrs": 5 },
+    { "label": "Tue", "hrs": 15 },
+    { "label": "Wed", "hrs": 3 },
+    { "label": "Thu", "hrs": 12 },
+    { "label": "Fri", "hrs": 28 },
+    { "label": "Sat", "hrs": 7 },
+    { "label": "Sun", "hrs": 0 }
+  ],
+  "year": [
+    { "label": "Jan", "hrs": 50 },
+    { "label": "Feb", "hrs": 5 },
+    { "label": "Mar", "hrs": 60 },
+    { "label": "Apr", "hrs": 10 },
+    { "label": "May", "hrs": 15 },
+    { "label": "Jun", "hrs": 80 },
+    { "label": "Jul", "hrs": 30 },
+    { "label": "Aug", "hrs": 50 },
+    { "label": "Sept", "hrs": 10 },
+    { "label": "Oct", "hrs": 5 },
+    { "label": "Nov", "hrs": 40 },
+    { "label": "Dec", "hrs": 90 }
+  ]
+}
