@@ -30,9 +30,9 @@ const LineGraphs = () => {
       },
       title: {
         display: true,
+        color: "rgb(255, 165, 0)",
         align: "start",
         text: "200 hours",
-        color: "rgb(255, 165, 0)",
         font: {
           size: 24,
         },
@@ -49,8 +49,8 @@ const LineGraphs = () => {
         border: {
           display: false,
         },
-        padding: {
-          top: 60,
+        ticks: {
+          padding: 15,
         },
       },
       y: {
@@ -62,6 +62,7 @@ const LineGraphs = () => {
         },
         ticks: {
           stepSize: 50,
+          padding: 15,
         },
         suggestedMax: 150,
       },
@@ -70,7 +71,6 @@ const LineGraphs = () => {
   };
 
   const handleChange = (e) => {
-    console.log(e.target.value);
     setGraphFilterOn(e.target.value);
   };
 
@@ -83,7 +83,7 @@ const LineGraphs = () => {
             {
               backgroundColor: (context) => {
                 const ctx = context.chart.ctx;
-                const gradient = ctx.createLinearGradient(0, 0, 0, 290);
+                const gradient = ctx.createLinearGradient(0, 0, 0, 240);
                 gradient.addColorStop(0, "rgba(250,174,50,1)");
                 gradient.addColorStop(1, "rgba(250,174,50,0)");
                 return gradient;
@@ -104,7 +104,7 @@ const LineGraphs = () => {
             {
               backgroundColor: (context) => {
                 const ctx = context.chart.ctx;
-                const gradient = ctx.createLinearGradient(0, 0, 0, 290);
+                const gradient = ctx.createLinearGradient(0, 0, 0, 240);
                 gradient.addColorStop(0, "rgba(250,174,50,1)");
                 gradient.addColorStop(1, "rgba(250,174,50,0)");
                 return gradient;
@@ -125,7 +125,7 @@ const LineGraphs = () => {
             {
               backgroundColor: (context) => {
                 const ctx = context.chart.ctx;
-                const gradient = ctx.createLinearGradient(0, 0, 0, 290);
+                const gradient = ctx.createLinearGradient(0, 0, 0, 240);
                 gradient.addColorStop(0, "rgba(250,174,50,1)");
                 gradient.addColorStop(1, "rgba(250,174,50,0)");
                 return gradient;
