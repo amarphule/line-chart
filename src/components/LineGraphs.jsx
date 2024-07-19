@@ -147,7 +147,7 @@ const LineGraphs = () => {
   return (
     <div className="graphContainer">
       <div className="graphTitle">
-        Total instrument Hours{" "}
+        Total Instrument Hours
         <span>
           <select
             className="graphFilter"
